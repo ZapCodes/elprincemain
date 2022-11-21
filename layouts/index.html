@@ -1,0 +1,59 @@
+  <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        {{ partial "head.html" .}}
+		{{ partial "ad.html" .}}
+		
+		
+    </head>
+    <body>
+        {{ partial "nav.html" .}}
+		
+		{{ partial "hero.html" .}}
+		
+        {{ partial "intro.html" .}}
+
+		{{ if .Site.Params.work.enable }}
+       		{{ partial "work.html" .}}
+       	{{ end }}
+
+		{{ if .Site.Params.testimonials.enable }}
+        	{{ partial "testimonials.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.services.enable }}
+        	{{ partial "services.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.about.enable }}
+        	{{ partial "about.html" .}}
+		{{ end }}
+
+		{{ if .Site.Params.counters.enable }}
+        	{{ partial "counters.html" .}}
+        {{ end }}
+
+		{{ if .Site.Params.contact.enable }}
+        	{{ partial "contact.html" .}}
+        {{ end }}
+
+        {{ if .Site.Params.footer.enable }}
+        	{{ partial "footer.html" .}}
+        {{ end }}
+
+        {{ partial "js.html" .}}
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5645335108955075"crossorigin="anonymous"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-HG23L27J15"></script>
+    	<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        	gtag('js', new Date());
+        	gtag('config', 'G-HG23L27J15');
+    	</script>
+    </body>
+
+</html>
