@@ -103,14 +103,20 @@ googleAnalytics = "G-HG23L27J15"
     button = "Liitu serveriga"
     icon = ""
     img = "img_10.jpg"
-   [[params.intro.item]]
+  [[params.intro.item]]
     title = "Teadete veebileht"
     description = "Saate teada uuendustest"
     url = "http://elprinceuuendused.onrender.com"
     button = "Uuenduste leht"
     icon = ""
     img = "img_10.jpg"
-
+  [[params.intro.item]]
+    title = "Whitelist taotlus"
+    description = "Saate taodelda whitelisti"
+    url = "https://forms.gle/diNZkxpZrNmtfrwFA"
+    button = "Whitelist"
+    icon = ""
+    img = "img_10.jpg"
         
 
   # Counters section
