@@ -45,8 +45,10 @@ googleAnalytics = "G-HG23L27J15"
   
   # Hero section
   [params.hero]
-    title = "TERE TULEMAST EL PRINCE KODULEHELE"
-    subtitle = 'Siin saate te vajalikud infod kätte'
+    title = "EL PRINCE ROLEPLAY KODULEHT"
+    subtitle = 'Tere tulemast meie kodulehele.Siit saate te vajalikud infobaasid kätte.'
+    description = 'HETKEL ON SERVER ARENDUSES! LIITUMINE = BAN.'              
+              
  [params.about]
     enable = true
     title = "MEIE TIIM"

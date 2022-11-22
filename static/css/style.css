@@ -39,10 +39,24 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #f80000;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+}
+h1, h2, h3, h4, h5, h6:hover {
   color: #29f800;
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+}
+
+h3:hover {
+  color: #29f800;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+
 }
 
 ::-webkit-selection {
@@ -214,16 +228,16 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #15ff00 !important;
+    color: #40ff0091 !important;
   }
   #fh5co-header #navbar li a {
-    color: #15ff00 !important;
+    color: #40ff0091 !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #15ff00 !important;
+    color: #40ff0091 !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -231,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #15ff00 !important;
+    color: #40ff0091 !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -254,6 +268,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   display: block;
   padding-bottom: 2px;
+  color: red;
+}
+#fh5co-header #navbar li a span:hover {
+  position: relative;
+  display: block;
+  padding-bottom: 2px;
+  color: rgb(21, 255, 0);
 }
 #fh5co-header #navbar li a span:before {
   content: "";
@@ -302,7 +323,15 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   font-weight: 700;
   padding-left: 0;
-  color: #18e006;
+  color: #e00606;
+}
+#fh5co-header .navbar-brand:hover {
+  float: left;
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 0;
+  color: #3de006;
 }
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
@@ -316,6 +345,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
   color: #3cff00;
+}
+#fh5co-header.navbar-fixed-top .navbar-brand:hover {
+  color: #ff0000;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(21, 255, 0, 0.5);
@@ -425,14 +457,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-home .text-inner h1 {
   font-size: 50px;
-  color: #09ff006b;
+  color: rgb(255, 0, 0);
+  margin: 0 0 20px 0;
+}
+#fh5co-home .text-inner h1:hover {
+  font-size: 50px;
+  color: rgb(4, 255, 0);
   margin: 0 0 20px 0;
 }
 #fh5co-home .text-inner h2 {
   font-size: 28px;
   line-height: 38px;
   font-weight: 300;
-  color: rgba(0, 255, 0, 0.8);
+  color: rgb(255 255 255);
   margin: 0;
 }
 
@@ -537,19 +574,25 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro .fh5co-block h2 {
   font-size: 24px;
   font-weight: 400;
+  color:red;
+}
+#fh5co-intro .fh5co-block h2:hover {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(4, 255, 0);
 }
 #fh5co-intro .fh5co-block:hover > .overlay, #fh5co-intro .fh5co-block:focus > .overlay {
   opacity: 0;
   z-index: 9;
 }
 #fh5co-intro .fh5co-block:hover > .fh5co-text, #fh5co-intro .fh5co-block:focus > .fh5co-text {
-  color: #000000;
+  color: rgb(4, 255, 0);
 }
 #fh5co-intro .fh5co-block:hover > .fh5co-text .fh5co-intro-icon, #fh5co-intro .fh5co-block:focus > .fh5co-text .fh5co-intro-icon {
-  color: #000000;
+  color: rgb(4, 255, 0);
 }
 #fh5co-intro .fh5co-block:hover h2, #fh5co-intro .fh5co-block:focus h2 {
-  color: #000000;
+  color: rgb(4, 255, 0);
 }
 #fh5co-intro .fh5co-block:hover .btn, #fh5co-intro .fh5co-block:focus .btn {
   border: 2px solid #000000 !important;
