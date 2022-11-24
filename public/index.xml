@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El Prince Roleplay Kodu Leht</title>
+    <link>elprinceserver/</link>
+    <description>Recent content on El Prince Roleplay Kodu Leht</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="elprinceserver/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reeglid</title>
+      <link>elprinceserver/reeglid1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>elprinceserver/reeglid1/</guid>
+      <description>REEGEL 1. ÜLDINE Mängijal peab olema arusaam serveri reeglistikust, käituma lugupidavalt, ning ta ei otsi viise, kuidas reeglitest mööda viilida. Administratiivil on igasugune õigus keelustada mängijat, kes ei ole rikkunud reegleid, kuid kahjustab mingil viisil serveri mainet või mängu elamust. Mängijal peab olema töötav mikrofon, mis kuidagi moodi teiste kõrvu ei kahjustaks mingit viisi. Rassism ja kõik sellega moonutatud sõnavara on keelatud. REEGEL 2. Deathmatch Isiku ilma veenva rollimängu põhjuseta tapmine on keelatud.</description>
+    </item>
+    
+  </channel>
+</rss>
