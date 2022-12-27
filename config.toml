@@ -1,5 +1,5 @@
 # Page settings
-baseUrl = "elprinceserver"
+baseUrl = "https://www.elprincerp.tk"
 title = "El Prince Roleplay Kodu Leht"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -99,7 +99,7 @@ googleAnalytics = "G-HG23L27J15"
   [[params.intro.item]]
     title = "Fivem Server"
     description = "Siit saate liituda FIVEM Serveriga selleks teil peab olema FIVEM programm"
-    url= "fivem://connect/cfx.re/join/x966rr"
+    url= "https://fivem://connect/cfx.re/join/x966rr"
     button = "Liitu serveriga"
     icon = ""
     img = "img_10.jpg"
